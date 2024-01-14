@@ -14,6 +14,8 @@ It's unlikely that this particular use case will appear again, but there may be 
 Access to production app insights is required to run the script as-is but if environments are altered to lower ones, it should be usable by all.
 
 ## KQL Script 1 - overall counts
+![image](https://github.com/hmcts/kql/assets/18507008/2b8f1465-12c1-41d8-9a70-c16888b97369)
+
 ```kusto
 union 
     (app('probate-prod').requests | extend appName = "probate"),
@@ -50,6 +52,8 @@ union
 
 
 ## KQL Script 2 - Counts by pod instance
+![Pasted image 20240105211226](https://github.com/hmcts/kql/assets/18507008/09aa9cc5-5395-45c4-95fb-f2c7f9a6e946)
+
 ```kusto
 union 
     (app('probate-prod').requests | extend appName = "probate"),
