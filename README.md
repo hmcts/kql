@@ -1,6 +1,10 @@
 # HMCTS KQL Script Repository
 
 ## Introduction
+KQL is an incredible language for all sorts of different problems we face as an organisation. It can be used for debugging, cloud cost reduction, security alerting, finding unused resources, incident response, user behaviour analysis and performance monitoring among many other things.
+However, there is a bit of a learning curve and the potential use cases are not immediately apparent if you are just starting to play with it.
+
+This repository aims to collect useful scripts that can be used as-is or altered for your specific use case.
 
 Each script in this repository is documented in its respective Markdown file, allowing for easy copying and implementation in your projects. Navigate through the repository to find scripts relevant to your needs.
 
