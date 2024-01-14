@@ -11,6 +11,7 @@ The repository is organized as follows:
 
 ## Contributing
 Please feel free to add any useful scripts you have come up with or found by creating a pull request.
+Copy the [template.md](/scripts/template.md) file to a relevant folder (or create a new folder if it doesn't fit elsewhere)
 
 ## License
 This repository and its contents are provided under the [MIT License](LICENSE).
