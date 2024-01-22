@@ -1,4 +1,4 @@
-# [Script Name]
+# Get event timings from CCD
 
 ## Description
 This script allows you to get the length of time between two events occurring on a case based on eventId.
