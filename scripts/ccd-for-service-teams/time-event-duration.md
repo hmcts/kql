@@ -33,7 +33,7 @@ Query1
 ```
 **important**: This query can also be used to find the average of all cases, by adding something along the lines of the following to the final query:
 ```kusto
-    // | summarize AvgTimeDifference = avg(TimeDifference / 1m)
+    | summarize AvgTimeDifference = avg(TimeDifference / 1m)
 ```
 
 ## Author
